@@ -5,29 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title >Facebook - Log In or Sign Up</title>
 </head>
 <body>
+    <main>
         <nav class="navbar navbar-expand-lg">
             
-                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:black">About</a>
+                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:rgb(77, 77, 77); padding-left:2%">About</a>
                 
 
-                <a class="navbar-brand col-md-9" href="#" style="font-size: .15in; color:black">Store</a>
+                <a class="navbar-brand col-md-9" href="#" style="font-size: .15in; color:rgb(77, 77, 77)">Store</a>
                 
 
-                <a class="navbar-brand col-md-.5" href="" style="font-size: .15in; color:black"> Gmail</a>
+                <div class="container" style="margin-right: -1.5%">
+                    <a class="navbar-brand col-md-.6" href="" style="font-size: .15in; color:rgb(77, 77, 77)"> Gmail</a>
 
-                <a class="navbar-brand col-md-.5" href="" style="font-size: .15in; color:black"> Images</a>
+                    <a class="navbar-brand col-md-.6" href="" style="font-size: .15in; color:rgb(77, 77, 77)"> Images</a>
 
-                <a class="navbar-brand col-md-.5" href=""> <img src="icons/menu.png"alt="">      </a>  
-                
-                <button class="navbar-brand col-md-.5 btn btn-primary" style="font-size: .15in"> Sign In </button>
+                    <a class="navbar-brand col-md-.6" href=""> <img src="icons/menu.png"alt="">      </a>  
+                    
+                    <button class="navbar-brand col-md-.5 btn btn-primary" style="font-size: .15in"> Sign In </button>
+                </div>
         </nav>
-        
-        <div class="container col-md-5">
-            <img src="icons/Googlelogo.png" height="150px" style="margin-top:40%" alt="">
+        <div class="container">
+        <div class="row">
+            <div class="container col-md-4">
+                <img src="icons/Googlelogo.png" height="150px" width="100%" style="margin-top:40%" alt="">
+            </div>
         </div>
-       
+        <div class="row" style="margin-top: 0%">
+                <div class="container col-md-6" >
+                        <form action="" class="thing">
+                                <label for="ddd" class="thing_label">search</label>
+                                <input type="text" placeholder="search..." name="search" id="ddd" class="thing_text">
+                                <input type="submit" value="search" class="thing_btn">
+                        </form>
+                </div>
+        </div>
+        <div class="row">
+            <div class="container col-md-10">
+                <button type="button" class="btn btn-grey col-md-2" style="margin-left: 30%; margin-top: 2%">Google Search</button>
+                <button type="button" class="btn btn-grey col-md-2" style="margin-left: 52%; margin-top: -7.2%">I'm Feeling Lucky </button>
+            </div>
+        </div>
+    </div>
+    </main>
+        <footer class="footer" id="foot" style="background: lightgray">
+                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:rgb(77, 77, 77); padding-left:3%">Advertisng</a>
+                
+
+                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:rgb(77, 77, 77)">Business</a>
+                
+
+                <a class="navbar-brand col-md-8" href="" style="font-size: .15in; color:rgb(77, 77, 77)"> How Search Works</a>
+
+                <a class="navbar-brand col-md-1" href="" style="font-size: .15in; color:rgb(77, 77, 77); padding-left:5.8%" > Privacy</a>
+
+                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:rgb(77, 77, 77)">Terms</a>
+                
+
+                <a class="navbar-brand col-md-.5" href="#" style="font-size: .15in; color:rgb(77, 77, 77)">Settings</a>
+                
+
+        </footer>
 </body>
 </html>
